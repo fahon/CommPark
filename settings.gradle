@@ -1,0 +1,1 @@
+include ':app', ':orchid', ':IcePlate', ':LicenseKeyboard', ':print', ':FXPsam', ':scan'

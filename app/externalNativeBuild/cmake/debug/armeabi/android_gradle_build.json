@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/WillSong/work/androidstudio/CommPark/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/WillSong/work/sdk/android-sdk-r24-macosx/cmake/bin/cmake --build /Users/WillSong/work/androidstudio/CommPark/app/externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/WillSong/work/sdk/android-sdk-r24-macosx/cmake/bin/cmake --build /Users/WillSong/work/androidstudio/CommPark/app/externalNativeBuild/cmake/debug/armeabi --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Dnative_lib_EXPORTS -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/platforms/android-23/arch-arm/usr/include -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/platforms/android-23/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack  -marm -fno-omit-frame-pointer -fno-strict-aliasing -O0 -g -DDEBUG -D_DEBUG -fPIC      ",
+					"src" : "/Users/WillSong/work/androidstudio/CommPark/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/WillSong/work/androidstudio/CommPark/app/externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/Users/WillSong/work/androidstudio/CommPark/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"toolchain" : "6986915689160468078"
+		}
+	},
+	"toolchains" : 
+	{
+		"6986915689160468078" : 
+		{
+			"cCompilerExecutable" : "/Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc",
+			"cppCompilerExecutable" : "/Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++"
+		}
+	}
+}

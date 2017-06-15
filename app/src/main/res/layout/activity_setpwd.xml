@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/modify_setpwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_item_height"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="修改设置密码"
+            android:textColor="@color/result_view"
+            android:textSize="@dimen/set_text_size" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cp_gray"></View>
+
+    <LinearLayout
+        android:id="@+id/modify_devicepwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_item_height"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="修改设备编号密码"
+            android:textColor="@color/result_view"
+            android:textSize="@dimen/set_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cp_gray"></View>
+
+    <LinearLayout
+        android:id="@+id/modify_exitpwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_item_height"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="修改退出密码"
+            android:textColor="@color/result_view"
+            android:textSize="@dimen/set_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cp_gray"></View>
+</LinearLayout>

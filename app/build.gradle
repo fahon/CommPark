@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "willsong.cn.commpark"
+        minSdkVersion 19
+        targetSdkVersion 22
+        versionCode 7
+        versionName "1.1.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        //cmake {
+        //cppFlags ""
+        //}
+    }
+    signingConfigs {
+        release {
+            storeFile file('E:/oldCommpark/CommPark.jks')
+            storePassword 'CommPark'
+            keyAlias 'CommPark'
+            keyPassword 'ccm159'
+        }
+    }
+    sourceSets {
+        main {
+            //jni.srcDirs = []
+            java.srcDirs = ['src/main/java', 'src/main/aidl', 'src/main/jniLibs']
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    defaultConfig {
+
+        ndk {
+            abiFilters 'armeabi'//, 'armeabi-v7a', 'x86_64', 'arm64-v8a', mips, mips64...加入需要生成的文件夹
+        }
+    }
+//    externalNativeBuild {
+//        cmake {
+//            //path "CMakeLists.txt"
+//        }
+//    }
+    productFlavors {
+    }
+}
+
+dependencies {
+
+    //compile fileTree(include: ['*.jar'], dir: 'libs')
+    provided fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':orchid')
+    compile project(':IcePlate')
+    compile project(':LicenseKeyboard')
+    compile project(':print')
+    compile project(':FXPsam')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    compile 'com.android.support:design:23.4.0'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/core-3.2.1.jar')
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile files('libs/printersdk.jar')
+    compile files('libs/dev_v1_2.jar')
+    compile files('libs/decoderapijni.jar')
+    compile files('libs/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar')
+    compile files('libs/posprinterconnectandsendsdk.jar')
+    compile files('libs/ice_ipcsdk.jar')
+    compile files('libs/wxpay-scanpay-java-sdk-1.0.jar')
+    compile files('libs/Msc.jar')
+    compile files('libs/Sunflower.jar')
+}

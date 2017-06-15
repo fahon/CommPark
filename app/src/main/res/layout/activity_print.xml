@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_print"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_print_TextView_park"
+        android:layout_margin="12dp"
+        style="@style/text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cp_gray_border" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/license_plate_icon" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            style="@style/text_content_show_two_cpgray"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="进场车牌" />
+
+        <EditText
+            android:id="@+id/activity_print_EditText_plate_number"
+            style="@style/text_content_show_two"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/transparent"
+            android:editable="false"
+            android:text="" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/cp_gray_border" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/time_icon" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            style="@style/text_content_show_two_cpgray"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="进车时间" />
+
+        <EditText
+            android:id="@+id/activity_print_EditText_enter_time"
+            style="@style/text_content_show_two"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/transparent"
+            android:editable="false"
+            android:text="" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/cp_gray_border" />
+    
+    <LinearLayout
+        android:id="@+id/activity_print_LinearLayout_exit_time"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/time_icon" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            style="@style/text_content_show_two_cpgray"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="出车时间" />
+
+        <EditText
+            android:id="@+id/activity_print_EditText_exit_time"
+            style="@style/text_content_show_two"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/transparent"
+            android:editable="false"
+            android:text="" />
+    </LinearLayout>
+    <View
+        android:id="@+id/line_exit_time"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/cp_gray_border" />
+    <LinearLayout
+        android:id="@+id/activity_print_LinearLayout_sum"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/money_icon" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            style="@style/text_content_show_two_cpgray"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="费用(元)" />
+
+        <EditText
+            android:id="@+id/activity_print_EditText_sum"
+            style="@style/text_content_show_two"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/transparent"
+            android:editable="false"
+            android:text="" />
+    </LinearLayout>
+    <View
+        android:id="@+id/line_sum"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/cp_gray_border" />
+    <TextView
+        android:paddingLeft="32dp"
+        android:id="@+id/activity_print_TextView_foot_info"
+        android:layout_margin="12dp"
+        style="@style/text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cp_gray_border" />
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/activity_print_Button_print"
+        style="@style/text_button_white"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_green_gray_selector"
+        android:text="打印" />
+
+
+</LinearLayout>

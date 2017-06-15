@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_system_model"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/system_model"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/ip_port"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/ip_port"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/platfromtest"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/test"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/sign"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/sign"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/print"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/prints"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/bluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/blue"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/printtitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/printtitle"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/plateRecognize"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/platerecognize"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+            <LinearLayout
+                android:id="@+id/localAreaNetwork"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/lan"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/localArea"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/lanarea"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/sessing"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/sessting"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/corpId"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/corpId"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/commonlicence"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/commonlicence"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/statistic"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/statistic"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/camera_scan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/camera_scan"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/code_modify"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/codemodify"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+            <LinearLayout
+                android:id="@+id/electronic_pay_Id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="电子支付接口"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/storeNo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="商户门店号"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/appUrl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="app平台接口地址"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/allowEnterAgain"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="车辆重复进场及晨鸟设置"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/savePicNum"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="保留图片数量设置"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+
+            <LinearLayout
+                android:id="@+id/savePicDay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/set_item_height"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="保留图片天数设置"
+                    android:textSize="@dimen/set_text_size"
+                    android:textColor="@color/result_view" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/cp_gray"></View>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

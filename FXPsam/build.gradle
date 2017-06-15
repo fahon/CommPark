@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        //applicationId "com.example.fxpsam"
+        minSdkVersion 19
+        targetSdkVersion 23
+
+        ndk {
+            moduleName "libHpsam"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    sourceSets.main {
+        jni.srcDirs = []
+        //jniLibs.srcDir 'src/main/jniLibs'
+        //jniLibs.srcDirs = ['src/main/jniLibs']
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+}

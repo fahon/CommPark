@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接socket"
+        android:onClick="startSocket"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.9.1停车场/采集设备签到"
+        android:id="@+id/sign"
+        android:onClick="sign"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="场库进场"
+        android:id="@+id/enter"
+        android:onClick="enter"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="场库出场"
+        android:id="@+id/out"
+        android:onClick="OutBusData"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="完整停车记录"
+        android:id="@+id/ezstop"
+        android:onClick="EzStop"
+        />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="总车位"
+    android:id="@+id/HeartBeat"
+    android:onClick="HeartBeat"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="公交卡支付"
+        android:id="@+id/BusCard"
+        android:onClick="OutBusDataByBusCard"
+        />
+</LinearLayout>

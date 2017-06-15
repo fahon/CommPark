@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_open_rfid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="鎵撳紑RFID" />
+
+        <Button
+            android:id="@+id/button_close_rfid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="鍏抽棴RFID" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="娓呯┖" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/spinner_psam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_psam_reset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="涓婄數澶嶄綅" />
+
+        <Button
+            android:id="@+id/button_psam_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="涓嬬數鍏抽棴" />
+        <Button
+            android:id="@+id/button_08"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="08闅忔満鏁�" />        
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+        <EditText 
+            android:id="@+id/edit_read_reg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="add(hex):00-3d"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:id="@+id/button_read_reg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="璇籖EG" />
+        <EditText 
+            android:id="@+id/edit_write_reg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="data(hex)"
+            />
+
+        <Button
+            android:id="@+id/button_write_reg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="鍐橰EG" />
+
+
+    </LinearLayout>
+        <EditText
+            android:id="@+id/editText_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/corners_background"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:gravity="top"
+            android:textSize="14sp"
+            android:ems="10" >
+
+        </EditText>
+
+</LinearLayout>

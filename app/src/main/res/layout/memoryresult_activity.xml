@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0091A1"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/plate_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_btn_result"
+
+            />
+
+        <TextView
+            android:id="@+id/plate_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/plateid_result"
+
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plate_color"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/plate_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/confirm"
+        style="@style/text_button_white"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/plate_number"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/button_green_gray_selector"
+        android:text="@string/confirm" />
+
+    <Button
+        android:id="@+id/btn_break"
+        style="@style/text_button_white"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/confirm"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/button_green_gray_selector"
+        android:text="@string/cardbreak" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车牌号"
+        android:gravity="center"
+        android:layout_above="@+id/plate_number"
+        android:layout_below="@+id/plate_image"
+        android:textSize="16sp"
+        />
+
+        <TextView
+            android:id="@+id/plate_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp" />
+        <Button
+            android:id="@+id/correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="纠正"
+            android:layout_toRightOf="@+id/plate_number"
+            android:background="@drawable/button_green_gray_selector"
+            />
+    <TextView
+        android:id="@+id/text_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plate_number"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/plate_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

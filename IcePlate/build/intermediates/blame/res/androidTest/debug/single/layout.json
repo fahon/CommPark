@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AAAsteven\\CommPark\\CommPark\\IcePlate\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AAAsteven\\CommPark\\CommPark\\IcePlate\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AAAsteven\\CommPark\\CommPark\\IcePlate\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_camera.xml",
+        "source": "E:\\AAAsteven\\CommPark\\CommPark\\IcePlate\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "E:\\AAAsteven\\CommPark\\CommPark\\IcePlate\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_result.xml",
+        "source": "E:\\AAAsteven\\CommPark\\CommPark\\IcePlate\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_result.xml"
+    }
+]

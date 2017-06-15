@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IcePlate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="activate">激活程序</string>
+    <string name="takepicReg">拍照识别</string>
+    <string name="videoReg">视频识别</string>
+    <string name="butclose">退出</string>
+    <string name="butexitlog">退出程序</string>
+    
+    <string name="plate_number">车牌号码</string>
+    <string name="plate_color">车牌颜色</string>
+    <string name="plate_color_code">车牌颜色代码</string>
+    <string name="plate_type_code">车牌类型代码</string>
+    <string name="plate_reliability">整牌可信度</string>
+    <string name="plate_leftupper_pointX">车牌左上点横坐标</string>
+    <string name="plate_leftupper_pointY">车牌左上点纵坐标</string>
+    <string name="plate_rightdown_pointX">车牌右下点横坐标</string>
+    <string name="plate_rightdown_pointY">车牌右下点纵坐标</string>
+    <string name="plate_car_color">车的颜色</string>
+
+    <!-- 授权验证失败 -->
+    <string name="failed_file_timeout">授权文件已过期，请重新申请授权文件！</string>
+    <string name="failed_noFile_find">没有找到相应的本地授权许可数据文件,请检查程序是否已经激活！</string>
+    <string name="failed_noAuth">程序未激活</string>
+    <string name="failed_init_error">初始化失败，请检查是否已经激活软件</string>
+    <string name="failed_File_error">模型文件操作失败！</string>
+    
+    <string name="confirm">确定</string>
+    <string name="cardbreak">返回</string>
+    <string name="plateid_result">识别结果 </string>
+    <string name="activebutton">激活程序</string>
+    
+    <string name="dialog_title">首次使用请联网激活，请输入授权码，并点击激活</string>
+    <string name="license_verification">授权验证</string>
+    <string name="disactivate">取消授权</string>
+    
+</resources>

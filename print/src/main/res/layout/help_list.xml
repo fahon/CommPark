@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/layout_full"
+        android:background="@drawable/test"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+      <TableLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+                >
+
+
+
+
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="49dp"
+
+                    >
+
+
+                <Button
+                android:id="@+id/connect_principle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_connect_principle"
+                android:background="@drawable/preference_single_item"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                 />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+
+                <Button
+                android:id="@+id/print_principle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_print_principle"
+                 android:background="@drawable/preference_single_item"
+                  android:layout_margin="10dp"
+                android:layout_weight="1" />
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                 <Button
+                android:id="@+id/recon_listen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_recon_listen"
+                 android:background="@drawable/preference_single_item"
+                  android:layout_margin="10dp"
+                android:layout_weight="1"/>
+                </TableRow>
+
+
+
+                    <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                <Button
+                android:id="@+id/discon_listen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_discon_listen"
+                 android:background="@drawable/preference_single_item"
+                  android:layout_margin="10dp"
+                android:layout_weight="1"/>
+
+                 </TableRow>
+
+
+
+
+
+
+                    <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                   <Button
+                android:id="@+id/address_bouds"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_address_bouds"
+                 android:background="@drawable/preference_single_item"
+                  android:layout_margin="10dp"
+                android:layout_weight="1" />
+
+                      </TableRow>
+
+
+
+                     <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                 </TableRow>
+
+
+
+
+                    <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+
+               <Button
+                android:id="@+id/button_bace"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_back"
+                 android:background="@drawable/preference_single_item"
+                  android:layout_margin="10dp"
+                android:layout_weight="1"/>
+
+                  </TableRow>
+
+
+
+
+        </TableLayout>
+   </ScrollView>
+

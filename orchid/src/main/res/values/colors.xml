@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="home_bg">#d5cbc0</color>
+    <!-- 通用颜色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色文字，一般是正文 -->
+    <color name="black">#161519</color>
+    <color name="orange">#ff7b44</color>
+    <color name="transparent">#00000000</color>
+    <!-- 介绍、指导性、提示性文字，如：请输入登录密码，个性签名 -->
+    <color name="gray">#ababab</color>
+    <color name="black_gray">#404040</color>
+    <!-- 文字是这个颜色 -->
+    <color name="green">#51af34</color>
+    <!-- 红色 -->
+    <color name="red">#e2686c</color>
+    <!-- 黄色有透明度 -->
+    <color name="yellow_transparent">#60ff9000</color>
+    <color name="yellow">#f6bb6f</color>
+    <!-- <color name="download_progressbar_bg">#4c000000</color> -->
+    <color name="download_progressbar_bg">#28000000</color>
+    <color name="black_transparent">#80000000</color>
+    <!-- item 点击颜色 -->
+    <color name="color_item_touch">#337ad039</color>
+    <!-- 通用黑色字体 -->
+    <color name="color_text_back">#626262</color>
+
+    <!-- 灰色菜单背景 -->
+    <color name="color_item_gray">#ffe9e9e9</color>
+    <!-- 字体的颜色值 -->
+    <!-- 主页面底部导航栏底部文字 -->
+    <color name="color_text_bottom_navigator">#404040</color>
+    <color name="msg_plus_item_press">#ff1d1d1d</color>
+
+    <!-- 原来字体颜色 -->
+    <color name="color_text_font_button">#626262</color>
+    <!-- 标题栏左右按钮文字 -->
+    <color name="color_text_title_button">#FFF</color>
+    <!-- 标题栏标题文字 161519 -->
+    <color name="color_text_title">#FFF</color>
+    <!-- 按钮文字颜色 深绿色 -->
+    <color name="color_button_dark_green">#20830f</color>
+
+    <!-- 输入框文字 -->
+    <color name="color_text_edit">#626262</color>
+    <!-- 输入框隐藏文字 -->
+    <color name="color_text_edit_hint">#ababab</color>
+    <!-- 通讯录列表 -->
+    <!-- 名字 -->
+    <color name="color_text_contact_list_name">#626262</color>
+    <!-- 电话号码 -->
+    <color name="color_text_contact_list_phone">#ababab</color>
+    <!-- 灰色菜单文字颜色 -->
+    <color name="color_text_item_gray">#ababab</color>
+    <!-- 分界线 -->
+    <color name="color_gray_divider">#ababab</color>
+    <!-- 通用列表菜单标题颜色 -->
+    <color name="color_text_list_item_title">#626262</color>
+
+    <!-- 引导页背景颜色 -->
+    <color name="color_guide_bg">#faf9f7</color>
+
+    <!-- 远控云 -->
+    <!-- 背景色值 -->
+    <color name="bg_color_white">#FAFAFA</color>
+    <!-- <color name="bg_color_gray">#E6E6E6</color> -->
+    <color name="bg_color_gray">#EDEDED</color>
+    <color name="line_color_blue">#4885B3</color>
+    <color name="line_color_blue_flow">#0B93CC</color>
+    <color name="bg_color_blue">#59B9FF</color>
+    <color name="bg_color_elc_blue">#0077CC</color>
+    <color name="bg_color_gray0">#394352</color>
+    <color name="bg_color_gray1">#323A47</color>
+    <color name="line_color_gray">#5C6473</color>
+
+    <!-- 深些 -->
+    <color name="bg_color_blue_1">#005899</color>
+    <!-- 浅些 一般用在图表背景 -->
+    <color name="bg_color_blue_2">#0068B3</color>
+    <!-- 字体颜色 -->
+    <color name="text_color_gray">#666666</color>
+    <color name="text_color_green">#22AC38</color>
+    <color name="text_color_gray0">#5C6473</color>
+    <!-- 蓝灰色，用于表示关闭状态 -->
+    <color name="text_color_blue_gray">#3392d6</color>    
+
+    <!-- zxing 条码扫描 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    
+     <color name="pda_green">#00CD00</color>
+     <color name="pda_blue">#00BFFF</color> 
+     <color name="pda_over_bg">#C9C9C9</color> 
+     
+     <!--  -->
+      <color name="pda_orange">#DA613A</color>
+    <!-- 公共停车 -->
+    <color name="cp_green">#6BBA3E</color>
+    <color name="cp_gray">#e4e4e4</color>
+    <color name="cp_gray_border">#E9E9E9</color>
+    <color name="gray_deep">#666666</color>
+
+    <color name="datasta_green">#42bb88</color>
+
+    <color name="datasta_red">#d86f63</color>
+
+    <color name="cp_purple">#416cd9</color>
+
+    <color name="rgray">#4c4c4c</color>
+    <color name="oranges">#FF7F00</color>
+    <color name="bar_item">#3e3a39</color>
+</resources>

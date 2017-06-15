@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/WillSong/work/androidstudio/CommPark/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/WillSong/work/sdk/android-sdk-r24-macosx/cmake/bin/cmake --build /Users/WillSong/work/androidstudio/CommPark/app/externalNativeBuild/cmake/release/mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/WillSong/work/sdk/android-sdk-r24-macosx/cmake/bin/cmake --build /Users/WillSong/work/androidstudio/CommPark/app/externalNativeBuild/cmake/release/mips --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Dnative_lib_EXPORTS -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/platforms/android-23/arch-mips/usr/include -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/platforms/android-23/arch-mips -fno-strict-aliasing -finline-functions -funwind-tables -fmessage-length=0 -fno-inline-functions-called-once -fgcse-after-reload -frerun-cse-after-loop -frename-registers -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack  -fomit-frame-pointer -funswitch-loops -finline-limit=300 -O3 -DNDEBUG -fPIC      ",
+					"src" : "/Users/WillSong/work/androidstudio/CommPark/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/WillSong/work/androidstudio/CommPark/app/externalNativeBuild/cmake/release/mips"
+				}
+			],
+			"output" : "/Users/WillSong/work/androidstudio/CommPark/app/build/intermediates/cmake/release/obj/mips/libnative-lib.so",
+			"toolchain" : "5063122195977595023"
+		}
+	},
+	"toolchains" : 
+	{
+		"5063122195977595023" : 
+		{
+			"cCompilerExecutable" : "/Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64/bin/mipsel-linux-android-gcc",
+			"cppCompilerExecutable" : "/Users/WillSong/work/sdk/android-sdk-r24-macosx/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64/bin/mipsel-linux-android-g++"
+		}
+	}
+}

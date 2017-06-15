@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_white">
+
+    <FrameLayout
+        android:id="@+id/image_plate"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/bt_white_white"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/cardPlate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="车牌图片"
+            android:textColor="@color/cp_purple"
+            android:textSize="17sp" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/cardpai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_white_white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="17dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/image_plate"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/plate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车牌号码"
+            android:textColor="@color/rgray"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/cardPlateHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/cp_purple"
+                android:text=""
+                android:layout_marginRight="8dp"/>
+
+            <Button
+                android:id="@+id/cardError"
+                android:layout_width="65dp"
+                android:layout_height="35dp"
+                android:background="@drawable/bt_white_blue"
+                android:text="纠错"
+                android:textSize="15sp"
+                android:textColor="@color/cp_purple"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/cardconfim"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@+id/cardPlateHome"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/button_green_gray_selector"
+            android:text="确定"
+            android:textSize="@dimen/btn_text_size"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/card_break"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@+id/cardPlateHome"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/button_gray_black_selector"
+            android:text="返回"
+            android:textSize="@dimen/btn_text_size"
+            android:textColor="@color/rgray"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

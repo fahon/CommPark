@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ice.ice_plate.IcePlateMainActivity"
+    >
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_by_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:text="@string/takepicReg"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_marginTop="202dp"
+        android:id="@+id/btn_activate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/activate"
+        android:textSize="30sp"/>
+
+    <Button
+
+        android:id="@+id/btn_by_vedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_activate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/videoReg"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>

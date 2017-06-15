@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择模式:"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="模式"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/radioFormal"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:text="标准模式"
+            android:textSize="20sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioSimple"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="简易模式"
+            android:textSize="20sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBike"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="自行车模式"
+            android:textSize="20sp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioQRCode"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="二维码模式"
+            android:textSize="20sp"></RadioButton>
+    </RadioGroup>
+
+</LinearLayout>
