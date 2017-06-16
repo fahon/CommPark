@@ -53,7 +53,7 @@ import static com.printer.sdk.PrinterInstance.mPrinter;
 /*
  *电子支付
  */
-public class PaymentActivity extends OBaseActivity implements View.OnClickListener {
+public class    PaymentActivity extends OBaseActivity implements View.OnClickListener {
     private static final int REQUEST_CODE_WX_PAY = 26;
     private static final String DECODED_CONTENT_KEY = "codedContent";
     private static final String DECODED_BITMAP_KEY = "codedBitmap";

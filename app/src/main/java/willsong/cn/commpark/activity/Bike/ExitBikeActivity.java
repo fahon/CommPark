@@ -194,6 +194,7 @@ public class ExitBikeActivity extends OBaseActivity implements View.OnClickListe
         if (BusinessManager.NETQUERYPARKINGREC.equals(type)) {
             enterTimeEditText.setText("" + map.get("EnterTime"));
             exitTimeEditText.setText("" + map.get("OutTime"));
+
             beginTime = "" + map.get("EnterTime");
             endTime = "" + map.get("OutTime");
             carPlate = "" + map.get("CarPlate");
@@ -312,10 +313,10 @@ public class ExitBikeActivity extends OBaseActivity implements View.OnClickListe
                         SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                         double money = 0.0;
                         try {
-                            if (1 == carType) {
+//                            if (1 == carType) {
                                 money = eu.getMoneyChange(eh, sf.parse(beginTime), sf.parse(endTime));
                                 money = formatDouble(money);
-                            }
+//                            }
                         } catch (Exception e) {
                         }
                         //money:本次优惠后还需支付的费用

@@ -1141,7 +1141,7 @@ public class BusinessManager extends OBaseBusinessManager {
      */
     @SuppressLint("HandlerLeak")
     @SuppressWarnings("unchecked")
-    public void netVsesionUpdate(final boolean isDialogShow, final String versionCode) {
+    public void     netVsesionUpdate(final boolean isDialogShow, final String versionCode) {
         final ProgressDialog progressDialog;
         if (isDialogShow) {
             progressDialog = new ProgressDialog(mOBaseActivity) {
